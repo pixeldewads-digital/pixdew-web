@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Container from './Container';
+import Container from './Container';
 
 const Hero = () => {
   return (
@@ -9,17 +10,22 @@ const Hero = () => {
       <Container>
         <div className="flex items-center justify-center h-screen">
           <div className="text-center">
-            <motion.img
-              src="/maskot/Dewbit.svg"
-              alt="Dewbit Mascot"
-              className="mx-auto"
+            <motion.div
               animate={{ y: [0, -20, 0] }}
               transition={{
                 duration: 2,
                 repeat: Infinity,
                 repeatType: 'reverse',
               }}
-            />
+              className="mx-auto w-24 h-24"
+            >
+              <img
+                src="/pixdew-web/maskot/Dewbit.svg"
+                alt="Dewbit Mascot"
+                width={100}
+                height={100}
+              />
+            </motion.div>
             <h1 className="text-4xl md:text-5xl font-bold text-white font-poppins mt-8">
               Dari Satu Pixel, Lahirlah ide besar.
             </h1>
