@@ -16,7 +16,6 @@ const Hero = () => {
           className="relative z-10"
         >
           <motion.div
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
             animate={{
               y: [0, -10, 0],
             }}
@@ -25,13 +24,14 @@ const Hero = () => {
               repeat: Infinity,
               ease: 'easeInOut',
             }}
+            className="mb-8"
           >
             <Image
               src={`${basePath || ''}/maskot/Dewbit.svg`}
               alt="Dewbit Mascot"
               width={128}
               height={128}
-              className="mx-auto mb-8"
+              className="mx-auto"
             />
           </motion.div>
 
