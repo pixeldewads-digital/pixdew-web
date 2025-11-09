@@ -19,7 +19,7 @@ const Hero = () => {
               className="mx-auto w-24 h-24"
             >
               <img
-                src="../public/logo/maskot/dewbit.svg"
+                src="/public/logo/maskot/dewbit.svg"
                 alt="Dewbit Mascot"
                 width={100}
                 height={100}
