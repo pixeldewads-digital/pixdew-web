@@ -30,7 +30,7 @@ const Header = () => {
     >
       <Container>
         <div className="flex items-center justify-between h-20">
-          <img src="/pixdew-web/logo/PD-New.svg" alt="PixelDew Logo" className="h-8" />
+          <img src="/pixdew-web/logo/PD New (Logo).png" alt="PixelDew Logo" className="h-8" />
           <nav>
             <ul className="flex items-center space-x-8">
               <li>
