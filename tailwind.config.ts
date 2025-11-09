@@ -10,28 +10,28 @@ const config: Config = {
     extend: {
       colors: {
         green: {
-          500: '#22C55E',
+          '500': '#22C55E',
+          '600': '#16a34a', // Added for hover state
         },
         sky: {
-          400: '#67E8F9',
+          '400': '#67E8F9',
+          '500': '#38bdf8', // Added for secondary button text
         },
         slate: {
-          500: '#64748b',
-          700: '#334155',
+            '500': '#64748b',
+            '700': '#334155',
         },
-        white: '#FFFFFF',
-        black: '#0F172A',
-        'gray-light': '#F9FAFB',
-        'gray-dark': '#1E293B',
+        'brand-white': '#FFFFFF',
+        'brand-black': '#0F172A',
+        'brand-gray-light': '#F9FAFB',
+        'brand-gray-dark': '#1E293B',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
         poppins: ['var(--font-poppins)', 'sans-serif'],
       },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      borderRadius: {
+        '2xl': '1rem', // Signature PixelDew look
       },
     },
   },
