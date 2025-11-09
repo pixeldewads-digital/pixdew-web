@@ -24,6 +24,7 @@ const Header = () => {
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center py-4">
         <Link href="/">
+          {/* TODO: Replace with the actual logo file */}
           <Image
             src={`${basePath || ''}/logo/PD-New.svg`}
             alt="PixelDew Logo"
