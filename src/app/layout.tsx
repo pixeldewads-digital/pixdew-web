@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: "Dari Satu Pixel, Lahirlah ide besar.",
 };
 
-import Header from "/components/Header";
+import Header from "@/src/components/Header/Header.tsx";
 
 export default function RootLayout({
   children,
